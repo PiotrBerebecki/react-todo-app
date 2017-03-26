@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1a3960f5-de68-4906-8f3d-cfffe9e87eae",
+      "name": "Setup create react app",
+      "isComplete": false
+    },
+    {
+      "id": "52774c01-8c8f-441b-ac1b-0009e9ded4cf",
+      "name": "Create components",
+      "isComplete": false
+    },
+    {
+      "id": "1c718783-7622-4bab-804c-55b3be677e32",
+      "name": "Setup redux",
+      "isComplete": false
+    }
+  ]
+}

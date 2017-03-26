@@ -1,0 +1,8 @@
+.footer__link {
+  margin: 0 1rem;
+  color: rgb(127, 164, 208);
+}
+
+.footer__link--selected {
+  color: rgb(31, 96, 172);
+}

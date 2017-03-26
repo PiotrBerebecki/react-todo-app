@@ -1,0 +1,17 @@
+.item__delete {
+  visibility: hidden;
+  text-decoration: none;
+}
+
+.item:hover .item__delete {
+  color: red;
+  visibility: visible;
+}
+
+.item__text {
+  color: #656565;
+}
+
+.item__text--selected {
+  text-decoration: line-through;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "react-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "npm-run-all --parallel start mockApi",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "mockApi": "json-server --watch ./db.json --port 3001"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint-plugin-react": "^6.10.3",
+    "json-server": "^0.9.6",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "uuid": "^3.0.1"
+  }
+}
